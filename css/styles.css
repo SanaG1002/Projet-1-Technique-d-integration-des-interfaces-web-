@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+ * General
+ */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #585c5c;
+    background-image: url(../img/image-arriere-plan.jpg);
+}
+
+.contener {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    margin: 15px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 35px;
+}
+
+figcaption {
+    color: #585c5c;
+    font-size: 14px;
+    font-style: italic;
+}
+
+figure {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#app-id-section-3 li {
+    list-style-type: none;
+    margin: 15px;
+    text-align: center;
+}
+
+#app-id-section-3 p {
+    margin-bottom: 80px;
+}
+
+
+/*
+ * Entête 
+ */
+header {
+    background-color: #b47666;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #b47666;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #b47666;
+}
+
+
+/*
+ * Titre
+ */
+h1 {
+    color: black;
+    font-family: cursive;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+h2 {
+    color: #b47666;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+/*
+ * Lien 
+ */
+.app-link {
+    color: #5b73dc;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.app-link:hover {
+    color: #b47666;
+}
+
+
+/*
+ * Section
+ */
+.app-section-style-1 {
+    background-color: #b4d6e0;
+    border: 2px solid #b4d6e0;
+    box-shadow: 15px 15px 15px #c4ada8;
+    margin-top: 60px;
+    padding: 40px;
+}
+
+.app-section-style-2 {
+    background-color: #d8ddde;
+    border: 2px solid #d8ddde;
+    box-shadow: 15px 15px 15px #c4ada8;
+    margin-top: 60px;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+
+
+/*
+ * Image
+ */
+.app-img-picture-1 {
+    float: left;
+    margin-right: 40px;
+}
+
+.app-img-picture-2 {
+    width: 750px;
+}
+
+.app-img-voyage {
+    float: left;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+
+.app-img-logo {
+    width: 8%;
+    height: auto;
+    text-align: center;
+}
+
+
+/*
+ * Pied de page
+ */
+footer {
+    background-color: black;
+    margin-top: 30px;
+    padding: 20px 0px;
+    color: #b47666;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.app-footer {
+    width: 49%;
+    display: inline-block;
+    margin: 20px 0;
+}
